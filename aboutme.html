@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关于我</title>
+<style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('colorful_3-t2.jpg'); /* 替换为您的背景图片路径 */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .container {
+        text-align: center; /* 添加此行代码使容器内文本居中 */
+        width: 80%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.8); /* 添加半透明背景以提高内容可读性 */
+        padding: 20px;
+    }
+    .info-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    th, td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #dddddd;
+        text-align: left;
+    }
+    th {
+        background-color: #009879;
+        color: white;
+        text-align: center;
+    }
+    tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+    img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .section {
+        margin-bottom: 40px;
+    }
+    footer {
+        background-color: #999;
+        color: blue;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    h2 {
+        margin-bottom: 20px; /* 添加边距 */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="info-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>项目</th>
+                    <th>详细</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>姓名</td>
+                    <td>周泽栩</td>
+                </tr>
+                <tr>
+                    <td>学校</td>
+                    <td>华中科技大学</td>
+                </tr>
+                <tr>
+                    <td>专业</td>
+                    <td>计算机科学与技术</td>
+                </tr>
+                <tr>
+                    <td>班级</td>
+                    <td>启明2401班</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="IMG_20241126_210621.jpg" alt="我的照片">
+    </div>
+    <div class="section">
+        <h3>我喜欢的动漫</h3>
+        <img src="eee732e8b5331d0238046e7b3a70c781.gif" alt="龙珠1">
+        <img src="610d2c8da45476612bc6d38ed2003037_preview_raw.jpg" alt="龙珠2">
+        <img src="t01407429b30aa0f8d7.jpg" alt="龙珠3">
+        <p><a href="https://www.toei-anim.co.jp/tv/dragon/">龙珠</a>   了解更多</p>
+    </div>
+    <div class="section">
+        <h3>我喜欢的游戏</h3>
+        <img src="t0437ea36794e139051.jpg" alt="原神">
+        <img src="ganyu.jpg" alt="原神2">
+        <img src="82f1c6303750d00c8cc6de70e9867fde401742377.jpg" alt="原神3">
+        <p><a href="https://ys.mihoyo.com/">原神</a>   了解更多</p>
+    </div>
+    <footer>
+      <p>了解更多信息可直接联系周泽栩</p>
+      <a href="firstpage.html" class="button">回到我的主页</a>
+    </footer>
+</div>
+</body>
+</html>

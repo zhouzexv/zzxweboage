@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的近期动态</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        header {
+            background: #3a17e4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #67e4fa;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%; /* 移除 position: absolute; 以使底部正常显示 */
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .post img {
+            width: 50%; /* 将图片宽度设置为原来的50% */
+            height: auto; /* 保持图片的宽高比 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网页</h1>
+    </header>
+    
+    <div class="container">
+        <!-- 最近更新 -->
+        <section id="recent-updates">
+            <h2>最近更新</h2>
+            <!-- 动态1 -->
+            <div class="post">
+                <h2>热闹！！！</h2>
+                <p>科技节</p>
+                <img src="IMG_20241201_100310.jpg" alt="科技节">
+                <p><small>发布日期：2024-12-1</small></p>
+            </div>
+            <!-- 动态2 -->
+            <div class="post">
+                <h2>好看！！！</h2>
+                <p>工训成果</p>
+                <img src="1733040857020.jpg" alt="激光雕刻">
+                <p><small>发布日期：2024-11-30</small></p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>周泽栩的日常生活</p>
+        <a href="firstpage.html" class="button">回到我的主页</a>
+    </footer>
+</body>
+</html>
